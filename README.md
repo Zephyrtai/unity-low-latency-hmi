@@ -1,26 +1,27 @@
 # Real-Time HMI Prototype Using Unity and UDP
-## Overview
-This project explores low-latency real-time HMI systems using Raspberry Pi Pico W, UDP communication, and Unity UI Toolkit.
 
-The goal is to study how sensor data can be transmitted, filtered, processed, and visualized in real time while balancing responsiveness, smoothness, and performance.
+A real-time HMI prototype exploring low-latency sensor-to-UI communication using Raspberry Pi Pico W, UDP, and Unity UI Toolkit.
 
 ## Current Features
 - Sensor-to-Unity real-time pipeline
 - UDP communication
 - Unity UI Toolkit visualization
-- Real-time graph display
-- Gauge-style interface
+- Real-time graph interface
+- Gauge-style UI
 - Data smoothing experiments
-- JSON data transmission
+- Embedded sensor integration
 
-## Technologies
+## Tech Stack
 - Unity
+- Unity UI Toolkit
 - C#
 - Raspberry Pi Pico W
 - MicroPython
 - UDP
 - JSON / Binary
-- Embedded Systems
+
+## System Architecture
+Sensor → Pico W → UDP → Unity Receiver → Data Processing → UI
 
 ## Current Development Status
 Current implementation successfully supports:
@@ -39,6 +40,7 @@ Next development goals:
 Pico W Sensor → UDP → Unity Receiver → Data Processing → UI Visualization
 
 ## Screenshots
+![Architecture Diagram](screenshots/architecture.png)
 
 ## Learning Goals
 This project is part of my exploration into:
