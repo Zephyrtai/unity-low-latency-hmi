@@ -40,7 +40,7 @@ Next development goals:
 Pico W Sensor → UDP → Unity Receiver → Data Processing → UI Visualization
 
 ## Screenshots
-![Architecture Diagram](screenshots/architecture.png)
+![Architecture Diagram](screenshots/architecture.drawio.png)
 
 ## Learning Goals
 This project is part of my exploration into:
